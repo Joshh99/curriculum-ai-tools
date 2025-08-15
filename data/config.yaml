@@ -1,0 +1,87 @@
+# Configuration file for AI-Assisted Curriculum Mapping Tool
+
+# API Configuration
+api:
+  anthropic:
+    model: "claude-3-sonnet-20240229"
+    max_tokens: 4000
+    temperature: 0.1
+    rate_limit_delay: 1.0  # seconds between API calls
+  
+# Data Processing Configuration
+data_processing:
+  min_description_length: 50
+  max_description_length: 5000
+  required_columns: ["id", "title", "description"]
+  quality_threshold: 70.0  # minimum quality score percentage
+  
+# Mapping Configuration  
+mapping:
+  confidence_thresholds:
+    high: 7.0
+    medium: 5.0
+    low: 0.0
+  batch_size: 10  # courses per batch
+  retry_attempts: 3
+  timeout_seconds: 30
+  
+# Report Configuration
+reporting:
+  output_formats: ["html", "csv", "json"]
+  visualizations:
+    - "competency_heatmap"
+    - "score_distribution" 
+    - "confidence_analysis"
+  chart_style: "seaborn-v0_8"
+  chart_palette: "husl"
+  figure_size: [12, 8]
+  dpi: 300
+  
+# File Paths
+paths:
+  data_dir: "data"
+  output_dir: "outputs" 
+  template_dir: "templates"
+  log_dir: "logs"
+  
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_logging: true
+  console_logging: true
+  
+# Validation Rules
+validation:
+  course_id_pattern: "^[A-Z0-9-]+$"
+  title_min_length: 5
+  title_max_length: 200
+  credits_range: [1, 20]
+  
+# Export Configuration
+export:
+  csv_encoding: "utf-8"
+  json_ensure_ascii: false
+  json_indent: 2
+  include_metadata: true
+  timestamp_format: "%Y-%m-%d %H:%M:%S"
+  
+# Performance Configuration
+performance:
+  chunk_size: 1000  # for large dataset processing
+  max_workers: 4    # for parallel processing
+  memory_limit_mb: 1024
+  
+# Security Configuration
+security:
+  mask_api_keys_in_logs: true
+  validate_file_paths: true
+  sanitize_inputs: true
+  
+# Feature Flags
+features:
+  enable_caching: true
+  enable_progress_bars: true
+  enable_detailed_logging: true
+  enable_auto_backup: true
+  experimental_features: false

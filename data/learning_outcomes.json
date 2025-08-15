@@ -1,0 +1,117 @@
+{
+  "institutional_learning_competencies": [
+    {
+      "name": "Critical Thinking and Problem Solving",
+      "description": "Ability to analyze complex problems systematically, evaluate evidence objectively, and develop logical, creative solutions using appropriate methodologies and reasoning skills.",
+      "category": "Cognitive Skills",
+      "assessment_methods": ["case studies", "problem-based assignments", "analytical essays"]
+    },
+    {
+      "name": "Technical and Professional Skills",
+      "description": "Proficiency in relevant tools, technologies, methodologies, and professional practices specific to one's field of study, including the ability to adapt to new technologies and industry standards.",
+      "category": "Technical Competence",
+      "assessment_methods": ["practical projects", "technical demonstrations", "certification exams"]
+    },
+    {
+      "name": "Communication and Collaboration",
+      "description": "Effective written and oral communication skills, including the ability to present complex ideas clearly, work collaboratively in diverse teams, and engage constructively with different perspectives.",
+      "category": "Interpersonal Skills",
+      "assessment_methods": ["presentations", "team projects", "peer evaluations", "written reports"]
+    },
+    {
+      "name": "Research and Information Literacy",
+      "description": "Ability to locate, evaluate, synthesize, and effectively use information from diverse sources, while understanding research methodologies and maintaining academic integrity.",
+      "category": "Research Skills",
+      "assessment_methods": ["research papers", "literature reviews", "source analysis"]
+    },
+    {
+      "name": "Quantitative and Analytical Reasoning",
+      "description": "Competency in mathematical thinking, statistical analysis, data interpretation, and the application of quantitative methods to solve problems and make informed decisions.",
+      "category": "Analytical Skills",
+      "assessment_methods": ["data analysis projects", "statistical reports", "mathematical proofs"]
+    },
+    {
+      "name": "Creativity and Innovation",
+      "description": "Capacity to generate original ideas, approach problems from novel perspectives, design innovative solutions, and adapt creatively to changing circumstances and challenges.",
+      "category": "Creative Skills",
+      "assessment_methods": ["design projects", "innovation challenges", "creative portfolios"]
+    },
+    {
+      "name": "Ethical Reasoning and Social Responsibility",
+      "description": "Understanding of ethical principles and their application to professional and personal decisions, with awareness of social, cultural, and environmental responsibilities.",
+      "category": "Ethical Competence",
+      "assessment_methods": ["ethics case studies", "reflection papers", "community service projects"]
+    },
+    {
+      "name": "Global and Cultural Awareness",
+      "description": "Appreciation for diverse perspectives, cultures, and global issues, with the ability to work effectively in multicultural environments and understand global interconnections.",
+      "category": "Cultural Competence",
+      "assessment_methods": ["cultural analysis projects", "international experiences", "diversity reflections"]
+    },
+    {
+      "name": "Leadership and Initiative",
+      "description": "Ability to motivate and guide others, take responsibility for outcomes, demonstrate initiative in identifying and addressing challenges, and contribute positively to organizational goals.",
+      "category": "Leadership Skills",
+      "assessment_methods": ["leadership roles", "project management", "peer leadership evaluations"]
+    },
+    {
+      "name": "Adaptability and Lifelong Learning",
+      "description": "Capacity to adjust to new situations, learn continuously, reflect on experiences for improvement, and maintain relevance in a rapidly changing professional landscape.",
+      "category": "Learning Skills",
+      "assessment_methods": ["learning portfolios", "self-assessment reports", "professional development plans"]
+    }
+  ],
+  "metadata": {
+    "institution": "Carnegie Mellon University",
+    "framework_version": "2024.1",
+    "last_updated": "2024-01-15",
+    "total_competencies": 10,
+    "development_committee": "Academic Standards and Curriculum Committee",
+    "approval_date": "2023-12-01",
+    "review_cycle": "Annual",
+    "next_review_date": "2024-12-01"
+  },
+  "mapping_guidelines": {
+    "scoring_scale": {
+      "0-2": "Not relevant - No clear connection to the competency",
+      "3-4": "Minimally relevant - Slight or indirect connection",
+      "5-6": "Moderately relevant - Some clear connections with room for development",
+      "7-8": "Highly relevant - Strong alignment with multiple aspects of competency",
+      "9-10": "Exceptionally relevant - Comprehensive coverage and deep engagement"
+    },
+    "evidence_requirements": [
+      "Explicit learning objectives that align with competency",
+      "Course activities and assignments that develop the competency",
+      "Assessment methods that measure competency achievement",
+      "Clear progression of skill development throughout the course"
+    ],
+    "quality_indicators": [
+      "Multiple opportunities for skill practice and development",
+      "Integration of competency across different course modules",
+      "Real-world application and transfer opportunities",
+      "Feedback mechanisms for competency improvement"
+    ]
+  },
+  "competency_relationships": {
+    "core_academic_competencies": [
+      "Critical Thinking and Problem Solving",
+      "Research and Information Literacy", 
+      "Quantitative and Analytical Reasoning"
+    ],
+    "professional_readiness_competencies": [
+      "Technical and Professional Skills",
+      "Communication and Collaboration",
+      "Leadership and Initiative"
+    ],
+    "personal_development_competencies": [
+      "Creativity and Innovation",
+      "Adaptability and Lifelong Learning",
+      "Ethical Reasoning and Social Responsibility",
+      "Global and Cultural Awareness"
+    ],
+    "cross_cutting_competencies": [
+      "Communication and Collaboration",
+      "Critical Thinking and Problem Solving"
+    ]
+  }
+}

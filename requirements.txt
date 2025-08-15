@@ -1,0 +1,67 @@
+# AI-Assisted Curriculum Mapping Tool - Requirements
+# Core dependencies for production use
+
+# AI/ML Libraries
+anthropic>=0.25.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Template Engine
+jinja2>=3.1.0
+
+# Configuration Management
+pyyaml>=6.0
+
+# Data Processing
+openpyxl>=3.1.0  # For Excel file support
+
+# Development Dependencies (optional but recommended)
+# Uncomment the following lines for development setup:
+
+# Code Quality
+# black>=23.0.0
+# flake8>=6.0.0
+# isort>=5.12.0
+
+# Testing
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+# pytest-mock>=3.10.0
+
+# Documentation
+# sphinx>=6.0.0
+# sphinx-rtd-theme>=1.2.0
+
+# Jupyter Notebooks (for analysis)
+# jupyter>=1.0.0
+# notebook>=6.5.0
+
+# Additional Visualization Libraries (optional)
+# plotly>=5.0.0  # For interactive plots
+# bokeh>=3.0.0   # For web-based visualizations
+
+# Performance Libraries (optional)
+# numba>=0.57.0  # For numerical optimization
+# joblib>=1.2.0  # For parallel processing
+
+# Advanced NLP Libraries (optional for future enhancements)
+# spacy>=3.5.0   # For advanced text processing
+# nltk>=3.8      # For natural language processing
+
+# Web Framework (optional for future web interface)
+# flask>=2.3.0   # For web application
+# fastapi>=0.95.0  # For API development
+
+# Database Support (optional)
+# sqlalchemy>=2.0.0  # For database integration
+# sqlite3  # Built-in with Python
+
+# Security (recommended for production)
+# cryptography>=40.0.0  # For encryption
+# keyring>=23.0.0  # For secure credential storage
+
+# Minimum Python Version Required: 3.8+
