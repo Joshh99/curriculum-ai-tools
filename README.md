@@ -38,7 +38,7 @@ A sophisticated Python-based system that leverages Anthropic's Claude AI to anal
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Joshh99/curriculum-ai-tools.git
    cd curriculum-ai-tools
    ```
 
